@@ -1,0 +1,40 @@
+body {
+    background-color: cadetblue;
+
+}
+
+button {
+    padding: 20px 32px;
+    background-color: mediumaquamarine;
+    color: white;
+    font-weight: bold;
+    border: 5px solid;
+    transition: all 500ms
+}
+
+button:hover {
+    color: aquamarine;
+    box-shadow: 5px 5px 20px black;
+    transform: scale(0.9);
+
+
+}
+
+button:active {
+    background-color: aqua;
+}
+
+@keyframes pokemon {
+    0%,100% {
+        
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+}
+
+.pokemon {
+    animation: pokemon 3s infinite;
+}
